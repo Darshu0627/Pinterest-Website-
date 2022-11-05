@@ -1,0 +1,457 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+}
+#nav{
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+}
+#img{
+    width: 30px;
+    height: 30px;
+    background-image: url(https://1000logos.net/wp-content/uploads/2018/03/Pinterest-Logo-2011-2016.png);
+    background-position: center;
+    background-size: cover;
+}
+a{
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+.t:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 40px;
+    background-color: black;
+    border-radius: 20px;
+}
+a:hover{
+    color: #fff;
+}
+#serch{
+    width: 800px;
+    height: 40px;
+    border-radius: 20px;
+    background-color:#dadada;
+}
+#cr>i{
+    color: black;
+}
+#pro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #dadada;
+}
+i{
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.418);
+}
+i:hover{
+    border-radius: 50%;
+    background-color: #dadada;
+}
+#pro:hover{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #dadada;
+}
+#first{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height:100vh;
+}
+h3{
+    font-weight: 500;
+    font-size: 20px;
+}
+h1{
+    font-weight: 500;
+    font-size: 38px;
+}
+#one{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 30%;
+    width: 150vh;
+    height: 50vh;
+}
+#oleft{
+    width: 49%;
+    height: 100%;
+    border-radius: 30px;
+    overflow: hidden;
+}
+#ltop{
+    display: flex;
+    width: 100%;
+    height: 50%;
+}
+#t1{
+    width: 33%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1630526720753-aa4e71acf67d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1376&q=80);
+    background-size: cover;
+    background-position: center;
+}
+#t2{
+    width: 34%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1617288991572-9e8755a88209?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80);
+    background-size: cover;
+}
+#t3{
+    width: 33%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1588842867976-fd084ca2c87b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+    background-size: cover
+}
+#lbottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+    width: 100%;
+    height: 50%;
+    background-color: rgba(255, 255, 255, 0.342);
+ }
+h4{
+    font-weight: 500; 
+ }
+h2{
+    font-weight: 500;
+    font-size: 28px;
+ }
+#oright{
+    width: 49%;
+    height: 100%;
+    border-radius: 30px;
+    overflow: hidden;
+}
+#rtop{
+    display: flex;
+    width: 100%;
+    height: 65%;
+    background-color: red;
+}
+#rt1{
+    width: 33%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1527661591475-527312dd65f5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGRyaW5rc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-position: center;
+}
+#rt2{
+    width: 34%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1517620517090-ab7f8eacbfd8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+    background-size: cover;
+    background-position: center;
+}
+#rt3{
+    width: 33%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1620832107928-6d835b70fcfa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80);
+    background-size: cover;
+    background-position: center;
+}
+#rbottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+#oleft:hover{
+    background-color: rgba(0, 0, 0, 0.137);
+}
+#oright:hover{
+    background-color: rgba(0, 0, 0, 0.137);
+}
+#two{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 82%;
+    width: 150vh;
+    height: 50vh;
+}
+#tleft{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    padding: 30px 20px;
+    width: 49%;
+    height: 100%;
+    border-radius: 30px;
+    overflow: hidden;
+    background-image: url(https://images.unsplash.com/photo-1528319725582-ddc096101511?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+    background-position: center;
+    background-size: cover;
+}
+#tright{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    padding: 30px 20px;
+    width: 49%;
+    height: 100%;
+    border-radius: 30px;
+    overflow: hidden;
+    background-image: url(https://images.unsplash.com/photo-1516146544193-b54a65682f16?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+    background-position: center;
+    background-size: cover;
+}
+ #tleft:hover{
+    background-color: rgba(0, 0, 0, 0.247);
+ }
+ #tright:hover{
+    background-color: rgba(0, 0, 0, 0.274);
+ }
+#second{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh; 
+}
+#second>h2{
+    position: absolute;
+    top: 135%;
+    font-weight: 500;
+    font-size: 30px;
+}
+#second #third{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top:145% ;
+    width: 150vh;
+    height: 50vh;
+}
+#thirdl{
+    width: 49%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 30px;
+}
+#tltop{
+    display: flex;
+    width: 100%;
+    height: 60%;
+}
+#tltop1{
+    width: 33%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1606605119743-11f39b217f81?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80);
+}
+#tltop2{
+    width: 34%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1533657957778-3d76a086a95c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+    background-position: center;
+    background-size: cover;
+}
+#tltop3{
+    width: 33%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1611540497578-4cb17aa00718?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80);
+    background-position: center;
+    background-size: cover;
+}
+#tlbottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+#thirdl:hover{
+    background-color: rgba(0, 0, 0, 0.096);
+}
+#thirdr{
+    width: 49%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 20px;
+}
+#trtop{
+    display: flex;
+    width: 100%;
+    height: 60%;
+}
+#trtop1{
+    width: 33%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1570711723895-cb9489526f3f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1567&q=80);
+}
+#trtop2{
+    width: 34%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1657367144068-935d1d9e5e15?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+    background-position: center;
+    background-size: cover;
+}
+#trtop3{
+    width: 33%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1628250521470-28c1fc54616c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80);
+    background-position: center;
+    background-size: cover;
+}
+#trbottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+ #thirdr:hover{
+    background-color: rgba(0, 0, 0, 0.096);
+}
+#last{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+#forth{
+    display: flex;
+    justify-content: space-between;
+    width: 150vh;
+    height: 50vh;
+}
+#forthl{
+    width: 49%;
+    height: 100%;
+    overflow: hidden;
+    background-color:rgba(255, 255, 255, 0.158);
+    border-radius: 30px;
+}
+#fltop{
+    display: flex;
+    width: 100%;
+    height: 60%;
+    background-color: #fff;
+}
+#fltop1{
+    width: 33%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://media.istockphoto.com/photos/black-rice-pudding-made-with-black-rice-simmered-in-milk-sweetened-picture-id1388021573?k=20&m=1388021573&s=612x612&w=0&h=Ea3U0S4FoKV-sqXRkxyv0O9nqKRbx8f-XJeP689mTLk=);
+}
+#fltop2{
+    width: 34%;
+    height: 100%;
+    background-image: url(https://media.istockphoto.com/photos/kesar-rabri-picture-id852765352?s=2048x2048);
+    background-position: center;
+    background-size: cover;
+}
+#fltop3{
+    width: 33%;
+    height: 100%;
+    background-image: url(https://media.istockphoto.com/photos/rabdi-or-rabri-served-in-clay-pot-diwali-desserts-picture-id1318179086?k=20&m=1318179086&s=612x612&w=0&h=aoovLn_rQl4SRw-cGN0AItcp3K_wcRplmm9xIMCCJEk=);
+    background-position: center;
+    background-size: cover;
+}
+#flbottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+#forthl:hover{
+    background-color: rgba(0, 0, 0, 0.151);
+}
+#forthr{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    padding: 20px 30px;
+    width: 49%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1630343710506-89f8b9f21d31?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    border-radius: 30px;
+    background-position: center;
+    background-size: cover;
+}
+#forthr>h4{
+    font-weight: 500; 
+    font-weight: 300;
+    color: #fff;
+}
+#forthr>h2{
+    color: #fff;
+    font-weight: 500;
+    font-size: 28px;
+ }
+ #forthr:hover{
+    background-color: rgba(0, 0, 0, 0.514);
+}
+#ktm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+    justify-content: space-between;
+    width: 150vh;
+    height: 35vh;
+}
+#ktm>i{
+    size: 60px;
+}
+button{
+    width: 150px;
+    height: 35px;
+    border-radius: 50px;
+    margin-top: 20px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.123);
+}
+button:hover{
+    background-color: rgba(0, 0, 0, 0.137);
+}
